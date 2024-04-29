@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the document -->
+    <title>Send to you Crush, code by zejestry</title>
+    <!-- External CSS stylesheets -->
+    <link rel="stylesheet" href="style.css"/>
+    <!-- External link for Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-fEx4Z5cUT/SskYnEGaLpe94Xa6K/g2CaxSH4Lxg6l0lWJaU/BRfnMcbQVNMJ6G+X17GkrhvcfVoLCUClBPb0Ow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT69kBkuVlM01_bZ92vShirVwXUfXFnoo6laQ&s">
+</head>
+<body>
+    <!-- Main wrapper -->
+    <div class="wrapper">
+        <!-- Title/question for the crush -->
+        <h2 class="question">hi Crush Pwede ba kitang Ligawan</h2>
+        <!-- GIF image -->
+        <img class="gif" alt="gif" src="https://media.tenor.com/tO85mO366xYAAAAi/amore-love-you.gif"/>
+        <!-- Button group for options -->
+        <div class="btn-group">
+            <!-- Button for "Yes" -->
+            <button class="yes-btn">Yes I want💗</button>
+            <!-- Button for "No" -->
+            <button class="no-btn">No, Panget mo</button>
+        </div>
+    </div>
+
+    <!-- Congrats section, initially hidden -->
+    <div class="congrats-section" style="display: none;">
+        <div class="container">
+            <!-- Congratulatory message -->
+            <h1 id="congratsText"></h1>
+            <!-- Aesthetic message -->
+            <div class="aesthetic">
+                <!-- Aesthetic text -->
+                <p>💖✨💖</p>
+                <p>Dear Mahal,</p>
+                <p>Simula nung unang kita ko sa'yo, naramdaman ko na ang kakaibang kiliti sa puso ko. Ang bawat ngiti mo ay nagpapainit sa aking puso at ang bawat salita mo ay nagbibigay sa akin ng ligaya. Sa tuwing nasa tabi mo ako, nararamdaman ko ang kasiyahan at kapanatagan. Alam kong hindi ko pa nasasabi ito nang harapan, ngunit gusto kong malaman mong ikaw ang aking crush, ang aking pag-ibig, at ang aking pangarap na maging girlfriend. Sana bigyan mo ako ng pagkakataon na maging mas maliwanag ang kinabukasan natin.</p>
+                <!-- Aesthetic text -->
+                <p>💖✨💖</p>
+                <!-- Button to copy text -->
+                <button id="copyBtn" class="copy-btn" onclick="copyText()">
+                    <i class="far fa-copy"></i> <!-- Icon for copying -->
+                </button>                
+            </div>
+            <!-- Congrats GIF image -->
+            <img class="gif" src="https://media.tenor.com/l4rIdtk2_GgAAAAM/good-morning.gif" alt="Congrats GIF">
+            <!-- Signature section -->
+            <div class="signature">
+                <!-- Signature text -->
+                <p>Just a Coder</p>
+                <!-- Popup for copied text -->
+                <div class="popup-signature" id="popup">Copied!</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- External JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
