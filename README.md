@@ -25,7 +25,7 @@ This project demonstrates an interactive web page featuring interface, utilizing
 
 2. Message Customization:
    - Open the HTML file (index.html) in a text editor.
-   - Find the <h2> tag with the class "question".
+   - Find the < h2> tag with the class "question".
    - Replace the text inside this tag with your desired message for your crush.
 
 3. Button Text Customization:
