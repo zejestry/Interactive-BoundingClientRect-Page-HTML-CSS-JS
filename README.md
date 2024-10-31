@@ -72,7 +72,7 @@ Feel free to reach out if you have any questions or need further assistance!
 1. Clone the repository:
 
    ```bash
-   git clone [https://github.com/your_username/interactive-crush-proposal.git](https://github.com/zejestry/Interactive-BoundingClientRect-Page-HTML-CSS-JS.git)
+   git clone [https://github.com/zejestry/interactive-crush-proposal.git](https://github.com/zejestry/Interactive-BoundingClientRect-Page-HTML-CSS-JS.git)
 
 ## Usage
 Click the "Yes" button to express message.
